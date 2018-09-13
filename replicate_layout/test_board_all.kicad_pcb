@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170919) (host pcbnew "(2017-09-19 revision dddaa7e69)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
     (thickness 1.6)
@@ -77,7 +77,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -1631,14 +1631,14 @@
   (segment (start 229.155 98.265) (end 227.165 96.275) (width 0.25) (layer F.Cu) (net 12))
   (segment (start 229.705 98.265) (end 229.155 98.265) (width 0.25) (layer F.Cu) (net 12))
   (segment (start 227.165 96.275) (end 227.165 95.885) (width 0.25) (layer F.Cu) (net 12))
-  (via (at 227.8 95.885) (size 0.6) (layers F.Cu B.Cu) (net 12))
+  (via (at 227.8 95.885) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 12))
   (segment (start 227.165 95.885) (end 227.8 95.885) (width 0.25) (layer F.Cu) (net 12))
   (segment (start 227.8 95.885) (end 229.245 95.885) (width 0.25) (layer B.Cu) (net 12))
   (segment (start 228.435 83.82) (end 228.435 86.36) (width 2) (layer B.Cu) (net 5))
   (segment (start 224.625 83.82) (end 228.435 83.82) (width 2) (layer B.Cu) (net 5))
   (segment (start 220.18 79.375) (end 224.625 83.82) (width 2) (layer B.Cu) (net 5))
   (segment (start 230.975 86.36) (end 232.245 87.63) (width 0.5) (layer F.Cu) (net 13))
-  (via (at 233.515 95.885) (size 0.6) (layers F.Cu B.Cu) (net 13))
+  (via (at 233.515 95.885) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 13))
   (segment (start 232.245 97.155) (end 233.515 95.885) (width 0.25) (layer F.Cu) (net 13))
   (segment (start 232.245 98.265) (end 232.245 97.155) (width 0.25) (layer F.Cu) (net 13))
   (segment (start 233.515 95.885) (end 232.245 95.885) (width 0.25) (layer B.Cu) (net 13))
@@ -1685,14 +1685,14 @@
   (segment (start 204.155 98.265) (end 202.165 96.275) (width 0.25) (layer F.Cu) (net 11))
   (segment (start 204.705 98.265) (end 204.155 98.265) (width 0.25) (layer F.Cu) (net 11))
   (segment (start 202.165 96.275) (end 202.165 95.885) (width 0.25) (layer F.Cu) (net 11))
-  (via (at 202.8 95.885) (size 0.6) (layers F.Cu B.Cu) (net 11))
+  (via (at 202.8 95.885) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 11))
   (segment (start 202.165 95.885) (end 202.8 95.885) (width 0.25) (layer F.Cu) (net 11))
   (segment (start 202.8 95.885) (end 204.245 95.885) (width 0.25) (layer B.Cu) (net 11))
   (segment (start 203.435 83.82) (end 203.435 86.36) (width 2) (layer B.Cu) (net 5))
   (segment (start 199.625 83.82) (end 203.435 83.82) (width 2) (layer B.Cu) (net 5))
   (segment (start 195.18 79.375) (end 199.625 83.82) (width 2) (layer B.Cu) (net 5))
   (segment (start 205.975 86.36) (end 207.245 87.63) (width 0.5) (layer F.Cu) (net 4))
-  (via (at 208.515 95.885) (size 0.6) (layers F.Cu B.Cu) (net 4))
+  (via (at 208.515 95.885) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 207.245 97.155) (end 208.515 95.885) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 207.245 98.265) (end 207.245 97.155) (width 0.25) (layer F.Cu) (net 4))
   (segment (start 208.515 95.885) (end 207.245 95.885) (width 0.25) (layer B.Cu) (net 4))
@@ -1720,8 +1720,6 @@
   (segment (start 203.245 106.68) (end 204.245 106.68) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 202.8 106.235) (end 203.245 106.68) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 202.8 102.715) (end 202.8 106.235) (width 0.5) (layer F.Cu) (net 1))
-  (segment (start 215.265 113.665) (end 219.71 113.665) (width 2) (layer B.Cu) (net 5))
-  (segment (start 217.805 110.49) (end 252.095 110.49) (width 2) (layer B.Cu) (net 5))
   (segment (start 177.8 102.715) (end 177.8 106.235) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 177.8 106.235) (end 178.245 106.68) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 178.245 106.68) (end 179.245 106.68) (width 0.5) (layer F.Cu) (net 1))
@@ -1752,6 +1750,8 @@
   (segment (start 182.245 97.155) (end 183.515 95.885) (width 0.25) (layer F.Cu) (net 3))
   (via (at 183.515 95.885) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 3))
   (segment (start 180.975 86.36) (end 182.245 87.63) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 215.265 113.665) (end 219.71 113.665) (width 2) (layer B.Cu) (net 5))
+  (segment (start 217.805 110.49) (end 252.095 110.49) (width 2) (layer B.Cu) (net 5))
   (segment (start 168.275 79.375) (end 170.18 79.375) (width 2) (layer B.Cu) (net 5))
   (segment (start 170.18 79.375) (end 174.625 83.82) (width 2) (layer B.Cu) (net 5))
   (segment (start 174.625 83.82) (end 178.435 83.82) (width 2) (layer B.Cu) (net 5))
@@ -1800,7 +1800,7 @@
   (zone (net 0) (net_name "") (layer F.SilkS) (tstamp 5A747340) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 237.325 97.155) (xy 240.5 97.155) (xy 240.5 100.33) (xy 237.325 100.33)
@@ -1810,7 +1810,7 @@
   (zone (net 13) (net_name /Veja_3/OUT) (layer F.Cu) (tstamp 5A74733F) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 232.88 77.47) (xy 232.88 85.09) (xy 241.135 85.09) (xy 241.135 77.47)
@@ -1820,7 +1820,7 @@
   (zone (net 13) (net_name /Veja_3/OUT) (layer F.Cu) (tstamp 5A74733E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 231.61 86.995) (xy 234.15 86.995) (xy 234.15 93.345) (xy 231.61 93.345)
@@ -1830,7 +1830,7 @@
   (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5A74733D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 238.595 90.17) (xy 238.595 93.345) (xy 239.865 94.615) (xy 239.865 95.885) (xy 240.5 95.885)
@@ -1841,7 +1841,7 @@
   (zone (net 0) (net_name "") (layer F.SilkS) (tstamp 5A74733C) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 212.325 97.155) (xy 215.5 97.155) (xy 215.5 100.33) (xy 212.325 100.33)
@@ -1851,7 +1851,7 @@
   (zone (net 4) (net_name /Veja_2/OUT) (layer F.Cu) (tstamp 5A74733B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 207.88 77.47) (xy 207.88 85.09) (xy 216.135 85.09) (xy 216.135 77.47)
@@ -1861,7 +1861,7 @@
   (zone (net 4) (net_name /Veja_2/OUT) (layer F.Cu) (tstamp 5A74733A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 206.61 86.995) (xy 209.15 86.995) (xy 209.15 93.345) (xy 206.61 93.345)
@@ -1871,7 +1871,7 @@
   (zone (net 2) (net_name GND) (layer F.Cu) (tstamp 5A747339) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 213.595 90.17) (xy 213.595 93.345) (xy 214.865 94.615) (xy 214.865 95.885) (xy 215.5 95.885)
